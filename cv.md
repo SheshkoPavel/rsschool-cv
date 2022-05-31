@@ -60,3 +60,25 @@ Responsibility  ---  clear goals  ---  patience --- perseverance and pedantry. I
 	Offline internship at IntexSoft at the Full Stack JS course "React + Node.js"
 
 ---
+## Additional materials
+- Book - Learn HTML and CSS by Eric Freeman, Elizabeth Robson 
+- Book - Learn JavaScript Programming by Eric Freeman, 	Elizabeth Robson
+- mimo application (iOS, WEB course. 2 certificates received: 
+	Web Development and SQL course)
+- React course “Way of the Samurai”, youtube channel “it-kamasutra”
+- Courses from youtube channel “Ulbi TV”
+
+---
+## Code Examples
+Vowel Count, from [codewars](https://www.codewars.com/kata/54ff3102c1bad923760001f3), TypeScript
+```
+static getCount(str: string): number {
+  let vowelsCount: number = 0;
+  for (let i: number = 0; i < str.length; i++){
+    if (str[i] === "a" || str[i] === "e" || str[i] === "i" || str[i] === "o" || str[i] === "u") {
+      vowelsCount += 1;
+    }
+  }   
+  return vowelsCount;
+  }
+```
