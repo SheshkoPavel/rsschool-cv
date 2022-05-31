@@ -1,4 +1,5 @@
 # PAVEL SHESHKO
+[1]: https://sun1.beltelecom-by-minsk.userapi.com/s/v1/ig2/vell1kuxSksveyuiNHLMHmbZ2SIU9MYiHEGvFMMjLnqXfzShBMc4GQ73yUfcPIlv7gt8ja_YaOPliOAuVYtOoEsI.jpg?size=200x200&quality=96&crop=0,0,602,602&ava=1 "Avatar"
 **Junior FULL-STACK WEB DEVELOPER** \
 33 YEARS OLD/ 
 FROM BELARUS, GRODNO 
