@@ -25,3 +25,19 @@ I wood like to find a full-time job in a creative company with
 modern tasks and team!
 
 ---
+## PERSONAL QUALITIES
+Responsibility  ---  clear goals  ---  patience --- perseverance and pedantry. If I do something, I try to bring it to the ideal and do not allow myself to leave something unfinished.
+
+## PROFESSIONAL SKILLS
+- react, redux, typescript 
+- javascript, es6, axios 
+- CSS / SCSS / sass 
+- Thunks, hooks, nest.js 
+- type orm sequelize, postgresql, sql 
+- swagger, docker, git 
+- mui / ant design 
+- rest api, postman 
+- Adobe (photoshop, premiere, after effects, audition) 
+- Photo and Video shooting (15 years of experience)
+
+---
