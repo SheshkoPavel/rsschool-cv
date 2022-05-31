@@ -17,3 +17,11 @@ Polish: conversational
 [codeWars](https://www.codewars.com/users/SheshkoPavel)
 
 ---
+## PROFILE INFO
+Full-stack web developer, I have experience in creating SPA with 
+React/ Redux/ TypeScript. Now I am improving my skills in this
+direction and expanding them with new technologies.
+I wood like to find a full-time job in a creative company with
+modern tasks and team!
+
+---
