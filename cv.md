@@ -41,3 +41,22 @@ Responsibility  ---  clear goals  ---  patience --- perseverance and pedantry. I
 - Photo and Video shooting (15 years of experience)
 
 ---
+## EDUCATION - HIGHER, SOFTWARE ENGINEER
+
+**September 2006 – July 2009**
+
+	Private Educational Institution “Grodno College of Business and Law”, Information Technology Software, Grodno, Belarus
+
+**September 2009 – January 2014**
+
+	Yanka Kupala State University, Information Technology Software,	Grodno, Belarus
+
+**September 2020 – March 2021**
+
+	Online Java SE courses from Senla company
+
+**January 2022 – March 2022**
+
+	Offline internship at IntexSoft at the Full Stack JS course "React + Node.js"
+
+---
