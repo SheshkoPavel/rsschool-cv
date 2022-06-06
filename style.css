@@ -44,4 +44,36 @@ body {
 .nav-link {
     padding: 0 20px;
     line-height: 50px;
-  }  
+    transition: .3s;
+    text-decoration: none;
+}  
+
+.nav-link:hover {
+    padding: 5px 20px;
+    background-color: rgb(118, 187, 255);
+    line-height: 50px;
+    transition: .3s;
+    text-decoration: none;
+}   
+
+.nav-link::after {
+    content: "";
+    position: absolute;
+    left: 12px;
+    bottom: -5px;
+    width: calc(100% - 24px);
+    height: 2px;
+    background-color: #fff;
+    opacity: 0;
+    transition: .5s;
+}
+
+
+.section-item a {
+  color: #829985;
+  text-decoration: none;  
+  transition: color 0.5s;
+}
+.section-item a:hover {
+  color: #4d2323;
+}
