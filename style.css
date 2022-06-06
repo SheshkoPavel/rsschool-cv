@@ -1,3 +1,16 @@
+@font-face {
+    font-family: 'din-condensed';
+    font-style: normal;
+    src: url("./assets/fonts/DINPro-CondensedRegular.ttf");
+    font-weight: 300;
+  }
+
+@font-face {
+    font-family: 'din-condensed-bold';
+    src: url("assets/fonts/DINPro-CondensedBold.ttf");
+    font-weight: 300;
+}  
+
 body {
-    text-align: center;
+    font-family: 'din-condensed';
 }
