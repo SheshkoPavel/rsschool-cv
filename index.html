@@ -28,13 +28,14 @@
         </div>
     </header>
 
-    <main class="main">
-        <div class="container main-container">
+
+    <main class="grid-container">
+        <div class="left">
             <section class="section section-profile" id="profile">
-                <img src="./assets/img/avatar.jpg" alt="profile avatar" class="section-profile-avatar" style="height: 200px">
+                <img src="./assets/img/avatar.jpg" alt="profile avatar" class="section-profile-avatar">
                 <div class="section-profile-title">
                   <h1 class="section-title main-title">PAVEL SHESHKO</h1>
-                  <h3 class="section-subtitle">Junior FULL-STACK WEB DEVELOPER</h3>
+                  <p class="section-subtitle">Junior FULL-STACK WEB DEVELOPER</p>
                   <p>33 YEARS OLD/ FROM BELARUS, GRODNO </p>
                 </div>        
             </section>
@@ -71,6 +72,8 @@
                     <li>Photo and Video shooting (15 years of experience)</li>
                 </ul>
             </section>
+        </div>
+        <div class="right">
             <section class="section section-info" id="info">
                 <h2>PROFILE INFO</h2>
                 <p>Full-stack web developer, I have experience in creating SPA with 
@@ -110,10 +113,8 @@
                 <li>Courses from youtube channel “Ulbi TV”</li>
             </section>
             <section class="section section-codeExamples" id="codeExamples">
-                <h2>Code Examples</h2>
-                <pre>
-                    <code>
-    static getCount(str: string): number {
+                <h2>Code Examples</h2>                                   
+                <pre><code>static getCount(str: string): number {
     let vowelsCount: number = 0;
     for (let i: number = 0; i < str.length; i++){
         if (str[i] === "a" || str[i] === "e" || str[i] === "i" 
@@ -126,10 +127,9 @@
                     </code>
                 </pre>
             </section>
-            
         </div>
-        
     </main>
+
         <hr>
     <footer class="footer">
         <a href="https://github.com/SheshkoPavel">My GITHUB</a>

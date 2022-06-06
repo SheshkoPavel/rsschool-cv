@@ -15,23 +15,50 @@ html {
     scroll-behavior: smooth; 
 }
 
+
 body {
-/*    display: flex;
-    flex-direction: column;
-    justify-content: space-between; */
     min-height: 100vh;
     margin: 0;
     padding: 0;
     font-family: 'din-condensed';
+    background-color: #d6d6d6;
 }
 
 * {
     box-sizing: border-box;
 }
 
+a {
+    color: black; /* Цвет ссылок */
+   }
+   a:visited {
+    color: black; /* Цвет посещенных ссылок */
+   }
+   a:active {
+    color: #2579bf; /* Цвет активных ссылок */
+   }
+
 .container {
     max-width: 1440px;
     margin: 0 auto;
+}
+
+.grid-container {
+    display: grid;
+    grid-gap: 20px;
+    grid-template-areas: 'left right right';    
+}
+
+.left {
+    grid-area: left;
+    background-color: #353637;
+    color: #d6d6d6;
+}
+
+.right {
+    grid-area: right;
+    background-color: #d6d6d6;
+    color: #353637;
 }
 
 .nav-list {
@@ -68,12 +95,35 @@ body {
     transition: .5s;
 }
 
-
-.section-item a {
-  color: #829985;
-  text-decoration: none;  
-  transition: color 0.5s;
+.section-profile{
+    background-color: #2579bf;
+    color: black;
 }
-.section-item a:hover {
-  color: #4d2323;
+
+.section section-profile p {
+    margin: 0;
+}
+
+.section-profile-avatar{
+    display: flex;
+    height: 300px;
+}
+
+.section-title{
+    margin: 5px 0 3px 0;
+}
+
+.section-subtitle {
+    font-weight: bold;
+    margin-top: 5px;
+}
+
+.section-contacts{
+    text-decoration: none;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 10px 0 10px;
 }
