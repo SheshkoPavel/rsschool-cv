@@ -1,8 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible">
+    <meta charset="UTF-8">    
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./style.css">
     <link rel="shortcut icon" href="./assets/img/favicon.png" type="image/x-icon">
@@ -105,18 +104,20 @@
             </section>
             <section class="section section-additionalInfo" id="additionalInfo">
                 <h2>Additional materials</h2>
-                <li>Book - Learn HTML and CSS by Eric Freeman, Elizabeth Robson</li>
-                <li>Book - Learn JavaScript Programming by Eric Freeman, Elizabeth Robson</li>
-                <li>mimo application (iOS, WEB course. 2 certificates received: 
-                    Web Development and SQL course)</li>
-                <li>React course “Way of the Samurai”, youtube channel “it-kamasutra”</li>
-                <li>Courses from youtube channel “Ulbi TV”</li>
+                <ul>
+                    <li>Book - Learn HTML and CSS by Eric Freeman, Elizabeth Robson</li>
+                    <li>Book - Learn JavaScript Programming by Eric Freeman, Elizabeth Robson</li>
+                    <li>mimo application (iOS, WEB course. 2 certificates received: 
+                        Web Development and SQL course)</li>
+                    <li>React course “Way of the Samurai”, youtube channel “it-kamasutra”</li>
+                    <li>Courses from youtube channel “Ulbi TV”</li>
+                </ul>    
             </section>
             <section class="section section-codeExamples" id="codeExamples">
                 <h2>Code Examples</h2>                                   
                 <pre><code>static getCount(str: string): number {
     let vowelsCount: number = 0;
-    for (let i: number = 0; i < str.length; i++){
+    for (let i: number = 0; i &lt; str.length; i++){
         if (str[i] === "a" || str[i] === "e" || str[i] === "i" 
         || str[i] === "o" || str[i] === "u") {
             vowelsCount += 1;
@@ -130,9 +131,10 @@
         </div>
     </main>
 
-        <hr>
+        
     <footer class="footer">
         <a href="https://github.com/SheshkoPavel">My GITHUB</a>
+        <div>2022</div>
         <a href="https://rs.school/js/" class="rss"><img src="./assets/img/logo-rsschool3.png" alt="school logo" style="height: 30px"></a>
     </footer>    
 </body>

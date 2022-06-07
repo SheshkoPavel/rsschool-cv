@@ -147,5 +147,8 @@ a:active {
 .footer {
     display: flex;
     justify-content: space-between;
-    margin: 0 10px 0 10px;
+    align-items: center;
+    background-color: #2579bf;
+    padding: 0 10px 0 10px;
+    font-size: 20px;
 }
