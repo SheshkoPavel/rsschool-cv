@@ -33,6 +33,7 @@ body {
 
 a {
     color: black; /* Цвет ссылок */
+    transition: 0.3s;
 }
 a:visited {
     color: black; /* Цвет посещенных ссылок */
@@ -40,9 +41,13 @@ a:visited {
 a:active {
     color: #2579bf; /* Цвет активных ссылок */
 }
+a:hover{
+    color: #2579bf;
+}
 
 .section-contacts a {
     color: #d6d6d6; /* Цвет ссылок */
+    transition: 0.3s;
 }
 .section-contacts a:visited {
     color: #d6d6d6; /* Цвет посещенных ссылок */
@@ -50,6 +55,11 @@ a:active {
 .section-contacts a:active {
     color: #2579bf; /* Цвет активных ссылок */
 }
+.section-contacts a:hover {
+    color: #56a9ed; /* Цвет активных ссылок */
+}
+
+
 
 .container {
     max-width: 1440px;
@@ -96,6 +106,7 @@ a:active {
 
 .nav-link:hover {
     padding: 5px 20px;
+    color: black;
     background-color: rgb(118, 187, 255);
     line-height: 50px;
     transition: .3s;
