@@ -164,3 +164,7 @@ a:hover{
     padding: 0 10px 0 10px;
     font-size: 20px;
 }
+
+.footer a:hover {
+    color: #d6d6d6;
+}
