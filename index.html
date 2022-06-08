@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="shortcut icon" href="./assets/img/favicon.png" type="image/x-icon">
+    <title>Sheshko Pavel CV</title>
+</head>
+
+<body>
+    <header class="header">
+        <div class="container header-container">
+            <nav class="nav">
+                <ul class="nav-list">
+                    <li class="nav-item"><a href="#contacts" class="nav-link">CONTACTS</a></li>
+                    <li class="nav-item"><a href="#languages" class="nav-link">LANGUAGES</a></li>
+                    <li class="nav-item"><a href="#skills" class="nav-link">PROFESSIONAL SKILLS</a></li>
+                    <li class="nav-item"><a href="#info" class="nav-link">PROFILE INFO</a></li>
+                    <li class="nav-item"><a href="#qualities" class="nav-link">PERSONAL QUALITIES</a></li>
+                    <li class="nav-item"><a href="#education" class="nav-link">EDUCATION</a></li>
+                    <li class="nav-item"><a href="#additionalInfo" class="nav-link">Additional materials</a></li>
+                    <li class="nav-item"><a href="#codeExamples" class="nav-link">Code Examples</a></li>
+                    <li class="nav-item"><a href="#projects" class="nav-link">Projects</a></li>
+                        
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+
+    <main class="grid-container">
+        <div class="left">
+            <section class="section-profile" id="profile">
+                <img src="./assets/img/avatar.jpg" alt="profile avatar" class="section-profile-avatar">
+                <div class="section-profile-title">
+                  <h1 class="section-title main-title">PAVEL SHESHKO</h1>
+                  <p class="section-subtitle">Junior FULL-STACK WEB DEVELOPER</p>
+                  <p>33 YEARS OLD/ FROM BELARUS, GRODNO </p>
+                </div>        
+            </section>
+            <section class="section section-contacts" id="contacts">
+                <h2>CONTACTS</h2>                
+                    <ul>
+                        <li><a href="tel:+375336559776">phone: +375336559776</a> (Viber, Telegram, WhatsApp)</li>
+                        <li><a href="mailto:derzurb@gmail.com">e-mail: derzurb@gmail.com</a></li>
+                        <li><a href="https://www.linkedin.com/in/sheshko-pavel">linkedIn</a></li>
+                        <li><a href="https://www.instagram.com/sheshko_pavel">instagram</a></li>
+                        <li><a href="https://www.codewars.com/users/SheshkoPavel">codeWars</a></li>
+                    </ul>                               
+            </section>
+            <section class="section section-languages" id="languages">
+                <h2>Languages</h2>
+                <ul>
+                    <li>Russian: native</li>
+                    <li>English: B1-B2</li>
+                    <li>Polish: conversational</li>
+                </ul>
+            </section>
+            <section class="section section-skills" id="skills">
+                <h2>PROFESSIONAL SKILLS</h2>
+                <ul>
+                    <li>react, redux, typescript</li>
+                    <li>javascript, es6, axios</li>
+                    <li>CSS / SCSS / SASS</li>
+                    <li>Thunks, hooks, nest.js</li>
+                    <li>type orm sequelize, postgresql, sql</li>
+                    <li>swagger, docker, git</li>
+                    <li>mui / ant design</li>
+                    <li>rest api, postman</li>
+                    <li>Adobe (photoshop, premiere, after effects, audition)</li>
+                    <li>Photo and Video shooting (15 years of experience)</li>
+                </ul>
+            </section>
+        </div>
+        <div class="right">
+            <section class="section section-info" id="info">
+                <h2>PROFILE INFO</h2>
+                <p>Full-stack web developer, I have experience in creating SPA with 
+                    React/ Redux/ TypeScript. Now I am improving my skills in this
+                    direction and expanding them with new technologies.
+                    I wood like to find a full-time job in a creative company with
+                    modern tasks and team!</p>
+            </section>
+            <section class="section section-qualities" id="qualities">
+                <h2>PERSONAL QUALITIES</h2>
+                <p>Responsibility  ---  clear goals  ---  patience --- perseverance and pedantry. If I do something, I try to bring it to the ideal and do not allow myself to leave something unfinished.</p>
+            </section>
+            <section class="section section-education" id="education">
+                <h2>EDUCATION - HIGHER, SOFTWARE ENGINEER</h2>
+                <ul>
+                    <li><span style ="font-style: italic">September 2006 - July 2009</span> <br>
+                        Private Educational Institution “Grodno College of Business and Law”, Information Technology Software, Grodno, Belarus
+                    </li>
+                    <li><span style ="font-style: italic">September 2009 - January 2014</span> <br>
+                        Yanka Kupala State University, Information Technology Software,	Grodno, Belarus
+                    </li>
+                    <li><span style ="font-style: italic">September 2020 - March 2021</span> <br>
+                        Online Java SE courses from Senla company
+                    </li>
+                    <li><span style ="font-style: italic">January 2022 - March 2022</span> <br>
+                        Offline internship at IntexSoft at the Full Stack JS course "React + Node.js"
+                    </li>
+                </ul>
+            </section>
+            <section class="section section-additionalInfo" id="additionalInfo">
+                <h2>Additional materials</h2>
+                <ul>
+                    <li>Book - Learn HTML and CSS by Eric Freeman, Elizabeth Robson</li>
+                    <li>Book - Learn JavaScript Programming by Eric Freeman, Elizabeth Robson</li>
+                    <li>mimo application (iOS, WEB course. 2 certificates received: 
+                        Web Development and SQL course)</li>
+                    <li>React course “Way of the Samurai”, youtube channel “it-kamasutra”</li>
+                    <li>Courses from youtube channel “Ulbi TV”</li>
+                </ul>    
+            </section>
+            <section class="section section-codeExamples" id="codeExamples">
+                <h2>Code Examples</h2>
+                <p> Vowel Count, from <a href="https://www.codewars.com/kata/54ff3102c1bad923760001f3">codeWars</a>, TypeScript </p>                                   
+                <pre><code>static getCount(str: string): number {
+    let vowelsCount: number = 0;
+    for (let i: number = 0; i &lt; str.length; i++){
+        if (str[i] === "a" || str[i] === "e" || str[i] === "i" 
+        || str[i] === "o" || str[i] === "u") {
+            vowelsCount += 1;
+        }
+        }   
+            return vowelsCount;
+    }</code></pre>
+            </section>
+            <section class="section section-projects" id="projects">
+                <h2>Projects</h2>
+                <ul>
+                    <li> <a href="https://github.com/SheshkoPavel/social_network_itKamasutra">Social network (Front-end App)</a> </li>
+                    <li> <a href="https://github.com/SheshkoPavel/nestjs-social-network">Social network (Back-end App, News page)</a> </li>
+
+                </ul>    
+            </section>
+        </div>
+    </main>
+
+        
+    <footer class="footer">
+        <a href="https://github.com/SheshkoPavel"><img src="./assets/img/github.svg" alt="github logo"> My GITHUB</a>
+        <div>2022</div>
+        <a href="https://rs.school/js/" class="rss"><img src="./assets/img/logo-rsschool3.png" alt="school logo" style="height: 30px; padding-top: 3px;"></a>
+    </footer>    
+</body>
+</html>
