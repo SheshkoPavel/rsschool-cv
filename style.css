@@ -9,10 +9,10 @@
     font-family: 'din-condensed-bold';
     src: url("assets/fonts/DINPro-CondensedBold.ttf");
     font-weight: 300;
-}  
+}
 
 html {
-    scroll-behavior: smooth; 
+    scroll-behavior: smooth;
 }
 
 
@@ -68,7 +68,7 @@ a:hover{
 .grid-container {
     display: grid;
     grid-gap: 20px;
-    grid-template-areas: 'left right right right';    
+    grid-template-areas: 'left right right right';
 }
 
 .left {
@@ -102,7 +102,7 @@ a:hover{
     line-height: 50px;
     transition: .3s;
     text-decoration: none;
-}  
+}
 
 .nav-link:hover {
     padding: 5px 20px;
@@ -111,7 +111,7 @@ a:hover{
     line-height: 50px;
     transition: .3s;
     text-decoration: none;
-}   
+}
 
 .nav-link::after {
     content: "";
