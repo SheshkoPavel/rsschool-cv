@@ -95,7 +95,16 @@ a:hover{
     list-style: none;
     font-family: 'din-condensed-bold';
     font-size: large;
-  }
+    padding-inline-start: 0px;
+}
+
+@media screen and (max-width: 600px) {
+    .nav-list {
+        display: grid;
+        justify-content: center;
+        justify-items: center;
+    }
+}
 
 .nav-link {
     padding: 0 20px;
